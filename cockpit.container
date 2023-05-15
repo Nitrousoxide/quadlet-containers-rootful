@@ -1,3 +1,8 @@
+[Unit]
+Description=Cockpit Container
+After=network-online.target
+Wants=network-online.target
+
 [Container]
 Image=quay.io/cockpit/ws:latest
 ContainerName=ws
