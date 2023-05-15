@@ -17,6 +17,3 @@ Exec=/container/label-run
 
 [Service]
 Restart=always
-
-[Install]
-WantedBy=default.target
